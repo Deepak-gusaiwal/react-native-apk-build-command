@@ -1,0 +1,8 @@
+#install react-native cli globally
+npm install -g react-native-cli '
+
+#run command to create you apk file
+react-native run-android --variant=release
+
+#location of your apk
+<your-project-directory>/android/app/build/outputs/apk/release/app-release.apk
